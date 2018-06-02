@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #587593;
+  transition: all 10s;
+  text-align: center;
+}
+body.switch {
+  background: #a2b6d3;
+  transition: all 10s;
+}
+#content {
+  width: max-content;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+}
+p {
+  margin: 0;
+}
+.unit {
+  display: inline-block;
+  width: max-content;
+  font-family: 'Teko', sans-serif;
+}
+.number {
+  font-size: 8em;
+  font-weight: 100;
+  line-height: 0.8em;
+}
+.descriptor {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.5em;
+  line-height: .4em;
+  color: rgba(0,0,0,0.5);
+}
+.colon {
+  position: relative;
+  bottom: 0.25em;
+}
+p.note {
+  font-size: 1.2em;
+  color: rgba(0,0,0,0.5);
+}
